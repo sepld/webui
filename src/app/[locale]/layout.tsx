@@ -2,7 +2,7 @@ import '@/styles/global.css';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 
 import { Toaster } from '@/components/ui/sonner';
-import Navigation from '@/components/ui/Navigation';
+import Navigation from '@/components/home/Navigation';
 import { Suspense } from 'react';
 
 import GoogleAdScript from '@/components/ad/GoogleAdScript';
@@ -62,7 +62,6 @@ export default function RootLayout({
           />
           <Navigation />
           <Suspense fallback={<Loading />}>{children}</Suspense>
-          {/* {children} */}
         </NextIntlClientProvider>
         <SeoScript />
         <GoogleAdScript />

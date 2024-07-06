@@ -1,6 +1,6 @@
 import Script from 'next/script';
 
-import { GOOGLE_TRACKING_ID } from '@/libs/env';
+import { GOOGLE_TRACKING_ID } from '@/lib/env';
 
 export default function SeoScript() {
   return (

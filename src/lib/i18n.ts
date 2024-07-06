@@ -53,8 +53,6 @@ export const locales = languages.map((lang) => lang.lang);
 
 export const defaultLocale = 'en';
 
-export const localePrefix = 'as-needed';
-
 export default getRequestConfig(async ({ locale }) => {
   // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale as any)) notFound();
