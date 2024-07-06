@@ -1,0 +1,4 @@
+Sitemap: https://www.groupsite.top/sitemap.xml
+
+User-agent: *
+Allow: /

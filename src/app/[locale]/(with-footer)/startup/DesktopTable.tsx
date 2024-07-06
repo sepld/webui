@@ -1,4 +1,4 @@
-import { SquareArrowOutUpRight } from 'lucide-react';
+import { Link, SquareArrowOutUpRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 import { STARTUP_LIST } from '@/lib/constants';

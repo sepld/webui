@@ -8,8 +8,8 @@ import { useTranslations } from 'next-intl';
 import { NAV_LINKS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 
-import BaseImage from '../image/BaseImage';
-import LocaleSwitcher from '../LocaleSwitcher';
+import BaseImage from '@/components/image/BaseImage';
+import LocaleSwitcher from '@/components/LocaleSwitcher';
 import MenuBtn from './MenuBtn';
 import NavigationDrawer from './NavigationDrawer';
 

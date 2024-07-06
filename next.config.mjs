@@ -1,33 +1,11 @@
 import withNextIntl from 'next-intl/plugin';
 
-const withNextIntlConfig = withNextIntl('./src/libs/i18n.ts');
+const withNextIntlConfig = withNextIntl('./src/lib/i18n.ts');
 
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  env: {
-    NEXT_BASE_API: process.env.NEXT_BASE_API,
-  },
-  logging: {
-    fetches: {
-      fullUrl: process.env.NODE_ENV === 'development',
-    },
-  },
-  compiler: {
-    removeConsole: process.env.NODE_ENV === 'production',
-  },
-  images: {
-    unoptimized: true,
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'img.artiversehub.ai',
-        port: '',
-        pathname: '/**',
-      },
-    ],
-  },
-  productionBrowserSourceMaps: false,
+
 };
 
 export default withNextIntlConfig(nextConfig);
