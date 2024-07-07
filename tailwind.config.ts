@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  // darkMode: ['class'],
+  darkMode: ['class'],
   content: ['./src/**/*.{js,ts,jsx,tsx,json}'],
   theme: {
     container: {
@@ -18,8 +18,6 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        'tap4-balck': '#222129',
-        'dark-bg': '#1E1B24',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

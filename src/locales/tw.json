@@ -12,7 +12,7 @@
   },
   "Footer": {
     "title": "WebUI AI工具目錄",
-    "subTitle": "發現2024年最佳AI工具，盡在Tap4 AI工具目錄！",
+    "subTitle": "發現2024年最佳AI工具，盡在WebUI AI工具目錄！",
     "support": "支持",
     "webui": "WebUI AI",
     "tattoo": "AI紋身生成器",
@@ -27,9 +27,9 @@
       "answer": "WebUI AI工具目錄 - groupsite.top正在建立一個AI工具目錄，幫助您獲取您喜愛的AI工具。您可以在這裡找到AI寫作工具、AI營銷工具、AI改寫工具、AI SEO工具、AI學習工具、AI生成工具、AI研究工具、AI藝術工具、AI音樂工具、AI視頻工具、AI編碼工具、AI照片工具等。"
     },
     "2": {
-      "question": "如何在Tap4 AI工具目錄中找到您的AI工具？",
-      "answer-1": "1. 打開tap4.ai。",
-      "answer-2": "2. 在Tap4 AI工具目錄中探索AI工具。",
+      "question": "如何在WebUI AI工具目錄中找到您的AI工具？",
+      "answer-1": "1. 打開gorupsite.top。",
+      "answer-2": "2. 在WebUI AI工具目錄中探索AI工具。",
       "answer-3": "3. 點擊您需要的AI工具以獲取詳情並訪問它。"
     },
     "3": {
@@ -38,8 +38,8 @@
       "answer-2": "2. 創業公司列表：為AI工具開發者提供免費的創業公司列表。"
     },
     "4": {
-      "question": "提交AI工具到Tap4 AI工具目錄是免費的嗎？",
-      "answer": "是的，目前是免費的。但您應該分享Tap4 AI工具目錄的反向連結！"
+      "question": "提交AI工具到WebUI AI工具目錄是免費的嗎？",
+      "answer": "是的，目前是免費的。但您應該分享WebUI AI工具目錄的反向連結！"
     },
     "5": {
       "question": "WebUI AI工具目錄支持哪些類別的AI工具？",
@@ -67,7 +67,7 @@
     },
     "11": {
       "question": "WebUI AI目錄的Web界面是開源的嗎？",
-      "answer": "是的，我們將在github（https://github.com/sepld/webui）上開源Tap4 AI目錄的Web界面。請給我們點贊。"
+      "answer": "是的，我們將在github（https://github.com/sepld/webui）上開源WebUI AI目錄的Web界面。請給我們點贊。"
     }
   },
   "FooterNavigation": {
@@ -96,7 +96,7 @@
     },
     "termsConditions": {
       "1-h1": "WebUI AI目錄服務條款",
-      "1-p": "歡迎來到Tap4 AI目錄！我們的網站位於https://groupsite.top（\"網站\"），致力於為您提供創建自定義圖像的能力。通過訪問或使用我們的網站，您同意受這些服務條款（\"條款\"）的約束。如果您不同意任何條款，則禁止使用該網站。",
+      "1-p": "歡迎來到WebUI AI目錄！我們的網站位於https://groupsite.top（\"網站\"），致力於為您提供創建自定義圖像的能力。通過訪問或使用我們的網站，您同意受這些服務條款（\"條款\"）的約束。如果您不同意任何條款，則禁止使用該網站。",
       "2-h2": "1. 使用許可",
       "2-p": "您被授予有限的、非排他性的、不可轉讓的許可，以個人、非商業目的使用本網站及其服務。未經我們事先書面同意，本許可不包括任何複製、修改或分發本網站內容或將其用於商業目的的權利。",
       "3-h2": "2. 所有權",
@@ -110,7 +110,7 @@
       "6-p": "WebUI AI目錄保留在我們全權酌情決定下隨時修改或替換這些條款的權利。我們將通過電子郵件通知用戶任何更改。在這些條款更改後，您繼續使用本網站將構成您接受這些更改。",
       "7-h2": "6. 聯繫信息",
       "7-p": "如果您對這些條款有任何疑問，請聯繫我們：sepdld@gmail.com。",
-      "last-p": "使用Tap4 AI目錄即表示您接受這些服務條款。"
+      "last-p": "使用WebUI AI目錄即表示您接受這些服務條款。"
     }
   },
   "NotFound": {
@@ -119,7 +119,7 @@
   },
   "Home": {
     "title": "WebUI AI - 探索最佳AI工具 2024",
-    "subTitle": "在Tap4 AI工具目錄中獲取您喜歡的AI工具。AI工具列表由GPT-4o每天更新。現在免費提交以增強您的SEO。",
+    "subTitle": "在WebUI AI工具目錄中獲取您喜歡的AI工具。AI工具列表由GPT-4o每天更新。現在免費提交以增強您的SEO。",
     "ai-navigate": "AI工具列表",
     "exploreMore": "獲取更多AI工具",
     "checkDetail": "查看詳情",
@@ -133,7 +133,7 @@
   },
   "Submit": {
     "title": "提交您的AI工具",
-    "subTitle": "提交您的AI工具並從Tap4 AI目錄獲取流量",
+    "subTitle": "提交您的AI工具並從WebUI AI目錄獲取流量",
     "website": "網站名稱",
     "url": "網站URL",
     "submit": "提交",
@@ -160,12 +160,12 @@
   },
   "Explore": {
     "title": "發現2024年最佳AI工具",
-    "subTitle": "在Tap4 AI工具目錄中找到您喜愛的AI工具。AI工具列表每天由GPT-4o更新。"
+    "subTitle": "在WebUI AI工具目錄中找到您喜愛的AI工具。AI工具列表每天由GPT-4o更新。"
   },
   "Metadata": {
     "home": {
       "title": "獲取您的最佳AI工具 | WebUI AI目錄",
-      "description": "WebUI AI目錄是一款提供免費AI工具目錄的工具。通過Tap4 AI目錄獲取您喜愛的AI工具，WebUI AI目錄旨在收集所有AI工具並為用戶提供最佳服務。",
+      "description": "WebUI AI目錄是一款提供免費AI工具目錄的工具。通過WebUI AI目錄獲取您喜愛的AI工具，WebUI AI目錄旨在收集所有AI工具並為用戶提供最佳服務。",
       "keywords": "WebUI AI目錄"
     },
     "ai": {
@@ -175,7 +175,7 @@
       "title": "2024年最佳AI工具探索 | WebUI AI目錄",
       "titlePrefix": "WebUI AI目錄探索",
       "titleSuffix": "WebUI AI目錄",
-      "description": "WebUI AI目錄是一款提供免費AI工具目錄的工具。通過Tap4 AI目錄獲取您喜愛的AI工具，WebUI AI目錄旨在收集所有AI工具並為用戶提供最佳服務。",
+      "description": "WebUI AI目錄是一款提供免費AI工具目錄的工具。通過WebUI AI目錄獲取您喜愛的AI工具，WebUI AI目錄旨在收集所有AI工具並為用戶提供最佳服務。",
       "keywords": "WebUI AI目錄"
     },
     "submit": {

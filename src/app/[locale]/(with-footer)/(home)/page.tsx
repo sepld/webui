@@ -42,7 +42,7 @@ export default async function Page() {
   ]);
 
   return (
-    <div className='relative w-full'>
+    <div className='relative w-full bg-[#222129]'>
       <div className='relative mx-auto w-full max-w-pc flex-1 px-3 lg:px-0'>
         <div className='my-5 flex flex-col text-center lg:mx-auto lg:my-10 lg:gap-1'>
           <h1 className='text-2xl font-bold text-white lg:text-5xl'>{t('title')}</h1>

@@ -125,7 +125,7 @@
   },
   "Submit": {
     "title": "AIツールを提出する",
-    "subTitle": "AIツールを提出してTap4 AIツールディレクトリからトラフィックを取得する",
+    "subTitle": "AIツールを提出してWebUI AIツールディレクトリからトラフィックを取得する",
     "website": "サイト名",
     "url": "サイトのURL",
     "submit": "提出する",
