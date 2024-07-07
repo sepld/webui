@@ -7,7 +7,7 @@ import Navigation from '@/components/home/Navigation';
 import { Suspense } from 'react';
 
 import GoogleAdScript from '@/components/ad/GoogleAdScript';
-import SeoScript from '@/components/seo/SeoScript';
+import GoogleTrackingScript from '@/components/seo/GooleConsole';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
@@ -40,7 +40,7 @@ export default function RootLayout({
           <Navigation />
           <Suspense fallback={<Loading />}>{children}</Suspense>
         </NextIntlClientProvider>
-        <SeoScript />
+        <GoogleTrackingScript />
         <Analytics/>
         <SpeedInsights/>
         <GoogleAdScript />
