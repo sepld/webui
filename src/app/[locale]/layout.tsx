@@ -8,6 +8,8 @@ import { Suspense } from 'react';
 
 import GoogleAdScript from '@/components/ad/GoogleAdScript';
 import SeoScript from '@/components/seo/SeoScript';
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import Loading from './loading';
 
@@ -39,6 +41,8 @@ export default function RootLayout({
           <Suspense fallback={<Loading />}>{children}</Suspense>
         </NextIntlClientProvider>
         <SeoScript />
+        <Analytics/>
+        <SpeedInsights/>
         <GoogleAdScript />
       </body>
     </html>
