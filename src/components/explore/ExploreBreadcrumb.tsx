@@ -21,14 +21,14 @@ export default function ExploreBreadcrumb({
           <>
             <BreadcrumbItem>
               {!item.isLast && (
-                <BreadcrumbLink href={item.href} className='flex items-center gap-1 text-white/40'>
-                  {item.href === '/' && <Home className='size-4' />}
+                <BreadcrumbLink href={item.href} className='flex items-center gap-1 text-black-500'>
+                  {item.href === '/' && <Home className='size-4 text-black-500' />}
                   {item.title}
                 </BreadcrumbLink>
               )}
               {item.isLast && <BreadcrumbPage>{item.title}</BreadcrumbPage>}
             </BreadcrumbItem>
-            {!item.isLast && <BreadcrumbSeparator className='text-white/40' />}
+            {!item.isLast && <BreadcrumbSeparator className='text-black/40' />}
           </>
         ))}
       </BreadcrumbList>

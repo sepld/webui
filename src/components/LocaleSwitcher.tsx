@@ -23,13 +23,13 @@ export default function LocaleSwitcher() {
 
   return (
     <Select value={localeVal} defaultValue={currentLocale} onValueChange={onValueChange}>
-      <SelectTrigger className='flex h-8 w-[80px] items-center gap-1 rounded-[4px] bg-[#232330] px-2 text-[#FFFFFF66]'>
-        <Icon src='/icons/global.svg' />
+      <SelectTrigger className='flex bg-frosted-glass border-black/20 h-8 w-auto items-center gap-1 rounded-[4px] px-2'>
+        <Icon src='/icons/locale-black.svg' className='h-8' />
         <SelectValue placeholder='locale'>{localeVal.toUpperCase()}</SelectValue>
       </SelectTrigger>
-      <SelectContent className='bg-[#232330]'>
+      <SelectContent>
         {languages.map((language) => (
-          <SelectItem value={language.lang} key={language.code} className='hover:cursor-pointer hover:!bg-white/40'>
+          <SelectItem value={language.lang} key={language.code} className='hover:cursor-pointer hover:!bg-green/10'>
             {language.label}
           </SelectItem>
         ))}

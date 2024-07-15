@@ -10,7 +10,7 @@ function TitleItem({ children }: { children: React.ReactNode }) {
 }
 
 function ContentItem({ children }: { children: React.ReactNode }) {
-  return <h3 className='mt-3 text-white/60'>{children}</h3>;
+  return <h3 className='mt-3 text-black'>{children}</h3>;
 }
 
 export default function Faq() {
@@ -62,10 +62,10 @@ export default function Faq() {
           <TitleItem>{t('10.question')}</TitleItem>
           <ContentItem>{t('10.answer')}</ContentItem>
         </div>
-        <div>
+        {/* <div>
           <TitleItem>{t('11.question')}</TitleItem>
           <ContentItem>{t('11.answer')}</ContentItem>
-        </div>
+        </div> */}
       </div>
     </div>
   );

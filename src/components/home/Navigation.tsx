@@ -26,12 +26,12 @@ export default function Navigation() {
 
   return (
     <>
-      <header className='bg-frosted-glass sticky left-0 top-0 z-50 flex h-[64px] bg-[#15141A] px-5 blur-[60%] filter lg:px-0'>
+      <header className='flex left-0 top-0 z-50 h-[64px] px-5 lg:px-0'>
         <nav className='mx-auto flex max-w-pc flex-1 items-center'>
           <div>
             <Link className='hover:opacity-80' href='/' title={t('title')}>
               <BaseImage
-                src='/images/tap4-ai.svg'
+                src='/images/favicon.svg'
                 alt={t('title')}
                 title={t('title')}
                 width={64}
@@ -47,9 +47,7 @@ export default function Navigation() {
                 <Link key={item.code} href={item.href} title={item.code}>
                   <li
                     className={cn(
-                      'flex h-full items-center text-white/40 hover:text-white',
-                      pathname === item.href && 'text-white',
-                      pathname.includes(item.href) && item.href !== '/' && 'text-white',
+                      'flex h-full items-center font-bold hover:text-red-500'
                     )}
                   >
                     {item.label}
