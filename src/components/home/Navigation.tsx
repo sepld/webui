@@ -47,7 +47,9 @@ export default function Navigation() {
                 <Link key={item.code} href={item.href} title={item.code}>
                   <li
                     className={cn(
-                      'flex h-full items-center font-bold hover:text-red-500'
+                      'flex h-full items-center text-black/70 hover:text-green-500/70',
+                      pathname === item.href && 'text-green-500/70',
+                      pathname.includes(item.href) && item.href !== '/' && 'text-green-500/70',
                     )}
                   >
                     {item.label}
