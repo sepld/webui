@@ -16,12 +16,14 @@ import NavigationDrawer from './NavigationDrawer';
 export default function Navigation() {
   const t = useTranslations('Navigation');
   const pathname = usePathname();
+  const locale = pathname.split('/')[1];
 
   const [open, setOpen] = useState(false);
 
   const NavLinks = NAV_LINKS.map((item) => ({
     ...item,
     label: t(`${item.code}`),
+    href: `/${locale}${item.href}`
   }));
 
   return (
